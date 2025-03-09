@@ -69,7 +69,7 @@ def load_candidates():
             processed_candidates.append({
                 "id": candidate.get('id'),
                 "name": candidate.get('name', 'Unknown Candidate'),
-                "status": candidate.get('status', 'Unknown Status'),
+                "status": get_score_status(candidate.get('overall_score', 0)),
                 "color": get_score_color(candidate.get('overall_score', 0)),
                 "overall_score": candidate.get('overall_score', 0),
                 "overall_analysis": candidate.get('overall_analysis', ''),
