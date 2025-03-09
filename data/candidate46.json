@@ -1,0 +1,40 @@
+{
+    "activityLog": [
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:04",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:07",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:07",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:07",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:02:07",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "NaN:NaN:NaN",
+            "activityDescription": "Window change detected",
+            "count": 1
+        }
+    ]
+}

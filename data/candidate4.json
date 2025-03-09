@@ -1,0 +1,64 @@
+{
+    "activityLog": [
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:18",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:21",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:25",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:26",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:27",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:41",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:45",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:45",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:45",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "NaN:NaN:NaN",
+            "activityDescription": "Window change detected",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "activityLog": [
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Paste",
+            "count": 5
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Paste",
+            "count": 3
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Copy",
+            "count": 3
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Paste",
+            "count": 3
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Paste",
+            "count": 3
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Cut",
+            "count": 2
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Paste",
+            "count": 3
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:00:00",
+            "activityDescription": "Paste",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:07",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:09",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:09",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:10",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:51",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:51",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:51",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:51",
+            "activityDescription": "Browser window swapped",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:23",
+            "activityDescription": "Browser window swapped",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:28",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:29",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:29",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:10:29",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:11:25",
+            "activityDescription": "Browser window swapped",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:15:30",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:16:13",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:16:23",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "NaN:NaN:NaN",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "NaN:NaN:NaN",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        }
+    ]
+}

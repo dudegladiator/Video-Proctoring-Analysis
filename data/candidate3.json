@@ -1,0 +1,1248 @@
+{
+    "activityLog": [
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:00:06",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:00:06",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:06",
+            "activityDescription": "Window change detected",
+            "count": 2
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:08",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:00:08",
+            "activityDescription": "Browser window swapped",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:56",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:57",
+            "activityDescription": "Window focus changed",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:57",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:03:59",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:04:42",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:04:42",
+            "activityDescription": "Window focus changed",
+            "count": 2
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:16",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:16",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:21",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:21",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:26",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:26",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:31",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:31",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:36",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:36",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:41",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:10:41",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:46",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:46",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:51",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:51",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:10:56",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:10:56",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:01",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:01",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:06",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:06",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:17",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:11:17",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:22",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:22",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:27",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:27",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:32",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:32",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:37",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:37",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:42",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:42",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:11:57",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:11:57",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:12:02",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:12:02",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:12:07",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:12:07",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:12:42",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:12:42",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:12:47",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:12:47",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:14:13",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:14:13",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:14:28",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:14:28",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:14:38",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:14:38",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:14:53",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:14:53",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:14:58",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:14:58",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:15:23",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:15:23",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:15:28",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:15:28",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:15:39",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:15:39",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:15:44",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:15:44",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:16:39",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:16:39",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:16:49",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:16:49",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:17:04",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:17:04",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:17:29",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:17:29",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:17:45",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:17:45",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:18:20",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:18:20",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:18:35",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:18:35",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:18:40",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:18:40",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:18:45",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:18:45",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:19:05",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:19:05",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:19:10",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:19:10",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:19:25",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:19:25",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:19:45",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:19:45",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:19:51",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:19:51",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:19:56",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:19:56",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:20:11",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:20:11",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:20:41",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:20:41",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:21:31",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:21:31",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:21:41",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:21:41",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:21:46",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:21:46",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:21:51",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:21:51",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:21:57",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:21:57",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:22:12",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:22:12",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:22:17",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:22:17",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:22:32",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:22:32",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:23:22",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:23:22",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:23:59",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:24:03",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:24:03",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:24:05",
+            "activityDescription": "Paste",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:24:57",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:24:59",
+            "activityDescription": "Paste",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:25:05",
+            "activityDescription": "Copy",
+            "count": 2
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:25:07",
+            "activityDescription": "Paste",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:25:28",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:25:28",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:25:43",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:25:43",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:26:24",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:26:24",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:27:09",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:27:09",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:28:25",
+            "activityDescription": "Candidate looking left",
+            "timeStampInVideo": "00:28:25",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:28:30",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:28:30",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:28:55",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:28:55",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:29:08",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:29:10",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:29:15",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:29:15",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:29:30",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:29:30",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:29:40",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:29:40",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:29:55",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:29:55",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:30:15",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:30:15",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:30:25",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:30:25",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:31:21",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:31:21",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:32:01",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:32:01",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:32:06",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:32:06",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:32:11",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:32:11",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:32:52",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:32:52",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:32:57",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:32:57",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:33:07",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:33:07",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:33:22",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:33:22",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:33:37",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:33:37",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:33:47",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:33:47",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:34:07",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:34:07",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:34:17",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:34:17",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:34:58",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:34:58",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:35:03",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:35:03",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:35:13",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:35:13",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:35:28",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:35:28",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:35:48",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:35:48",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:35:58",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:35:58",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:36:08",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:36:08",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:37:34",
+            "activityDescription": "Display change detected",
+            "count": 2
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:37:59",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:37:59",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:39:04",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:39:04",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:39:45",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:39:45",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:40:35",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:40:35",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:41:05",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:41:05",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:41:15",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:41:15",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:41:25",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:41:42",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:41:43",
+            "activityDescription": "Paste",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:41:47",
+            "activityDescription": "Paste",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:41:56",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:41:56",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:42:06",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:42:06",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:42:21",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:42:21",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:42:26",
+            "activityDescription": "Copy",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:42:27",
+            "activityDescription": "Copy",
+            "count": 2
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:42:30",
+            "activityDescription": "Paste",
+            "count": 1
+        },
+        {
+            "type": "Agent Proctoring",
+            "timeStampInVideo": "00:42:31",
+            "activityDescription": "Paste",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:42:46",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:42:46",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:42:51",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:42:51",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:43:06",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:43:06",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:43:11",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:43:11",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:43:32",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:43:32",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:43:57",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:43:57",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:44:02",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:44:02",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:44:07",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:44:07",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:45:27",
+            "activityDescription": "Candidate iris looking left",
+            "timeStampInVideo": "00:45:27",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:45:38",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:45:38",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:45:58",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:45:58",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:46:13",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:46:13",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:46:33",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:46:33",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:47:23",
+            "activityDescription": "Candidate looking up",
+            "timeStampInVideo": "00:47:23",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:47:33",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:47:33",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:47:34",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:47:37",
+            "activityDescription": "Window change detected",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "00:47:37",
+            "activityDescription": "Window focus changed",
+            "count": 2
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:47:43",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:47:43",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:47:49",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:47:49",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:47:59",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:47:59",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:48:04",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:48:04",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:48:14",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:48:14",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:48:49",
+            "activityDescription": "Candidate looking up",
+            "timeStampInVideo": "00:48:49",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:50:20",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:50:20",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:50:35",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:50:35",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:50:45",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:50:45",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:51:00",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:51:00",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:51:25",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:51:25",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:51:30",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:51:30",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:51:50",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:51:50",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:52:46",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:52:46",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:53:01",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:53:01",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:53:11",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:53:11",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:53:16",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:53:16",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:53:26",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:53:26",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:54:17",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:54:17",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:54:22",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:54:22",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:55:12",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:55:12",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:55:47",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:55:47",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:56:02",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:56:02",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:56:07",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:56:07",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:56:13",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:56:13",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:56:18",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:56:18",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:56:38",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:56:38",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:56:48",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:56:48",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:56:53",
+            "activityDescription": "Candidate looking down",
+            "timeStampInVideo": "00:56:53",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:57:28",
+            "activityDescription": "Candidate iris looking left",
+            "timeStampInVideo": "00:57:28",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:57:43",
+            "activityDescription": "Candidate iris looking left",
+            "timeStampInVideo": "00:57:43",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:58:39",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:58:39",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:58:59",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:58:59",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:59:04",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:59:04",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:59:09",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "00:59:09",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "00:59:29",
+            "activityDescription": "Candidate iris looking right",
+            "timeStampInVideo": "00:59:29",
+            "count": 1
+        },
+        {
+            "type": "Video Proctoring",
+            "timestampInVideo": "01:00:00",
+            "activityDescription": "Candidate looking right",
+            "timeStampInVideo": "01:00:00",
+            "count": 1
+        },
+        {
+            "type": "Extension Proctoring",
+            "timeStampInVideo": "NaN:NaN:NaN",
+            "activityDescription": "Window change detected",
+            "count": 1
+        }
+    ]
+}
