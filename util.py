@@ -1,5 +1,6 @@
 def get_score_color(score):
     """Get color based on score"""
+    print(score)
     if score >= 75:
         return "#D32F2F"  # Darker red
     elif score >= 50:
