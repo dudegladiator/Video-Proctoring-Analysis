@@ -1,0 +1,1176 @@
+[
+    {
+      "id": 1,
+      "name": "candidate1",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 77.36,
+      "overall_analysis": "The activity log shows several suspicious patterns indicative of potential cheating. Multiple 'Browser window swapped' and 'Window change detected' activities occurred outside the first and last 5 minutes, which is highly suspicious. Additionally, there were clusters of 'Copy' and 'Paste' actions combined with window changes, suggesting possible content transfer from external sources. The detection of 'No face detected' events further raises concern, as it may indicate the candidate was looking away from the screen for extended periods. While 'Candidate iris looking right' is frequent, it is not necessarily suspicious on its own but adds to the overall concern when combined with other high-suspicion activities. The average interval between events is relatively short, suggesting frequent and potentially coordinated suspicious activities.",
+      "exam_name": "exam1",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows several suspicious patterns indicative of potential cheating. Multiple 'Browser window swapped' and 'Window change detected' activities occurred outside the first and last 5 minutes, which is highly suspicious. Additionally, there were clusters of 'Copy' and 'Paste' actions combined with window changes, suggesting possible content transfer from external sources. The detection of 'No face detected' events further raises concern, as it may indicate the candidate was looking away from the screen for extended periods. While 'Candidate iris looking right' is frequent, it is not necessarily suspicious on its own but adds to the overall concern when combined with other high-suspicion activities. The average interval between events is relatively short, suggesting frequent and potentially coordinated suspicious activities."
+      },
+      "algorithm_based_proctoring": {
+        "score": 80.9,
+        "factor1": "Window change detected:56.0",
+        "factor2": "Candidate looking down:56.0",
+        "factor3": "Browser window swapped:40.5"
+      },
+      "ml_based_proctoring": {
+        "score": 46
+      }
+    },
+    {
+      "id": 2,
+      "name": "candidate2",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 60.56,
+      "overall_analysis": "The activity log shows a cluster of highly suspicious activities including multiple window changes and a browser window swap within a short span of time. The average interval between these activities is only 2 seconds, indicating rapid and systematic switching behavior. While these activities occur within the first 5 minutes, their frequency and clustering are unusually high even for initial setup or nervousness. The presence of a browser window swap, a high suspicion activity, adds significantly to the concern. Although there are no activities outside the first 5 minutes logged here, the intense clustering of suspicious actions in such a brief period is highly irregular and suggests a deliberate pattern rather than innocent adjustments.",
+      "exam_name": "exam2",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 70,
+        "analysis": "The activity log shows a cluster of highly suspicious activities including multiple window changes and a browser window swap within a short span of time. The average interval between these activities is only 2 seconds, indicating rapid and systematic switching behavior. While these activities occur within the first 5 minutes, their frequency and clustering are unusually high even for initial setup or nervousness. The presence of a browser window swap, a high suspicion activity, adds significantly to the concern. Although there are no activities outside the first 5 minutes logged here, the intense clustering of suspicious actions in such a brief period is highly irregular and suggests a deliberate pattern rather than innocent adjustments."
+      },
+      "algorithm_based_proctoring": {
+        "score": 46.4,
+        "factor1": "Window change detected:44.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 80
+      }
+    },
+    {
+      "id": 3,
+      "name": "candidate3",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 79.48,
+      "overall_analysis": "The activity log shows several suspicious patterns that suggest a high probability of cheating. Multiple 'Window change detected' and 'Window focus changed' events occurred outside the first and last 5 minutes, which is unusual. Additionally, there were several 'Copy' and 'Paste' actions combined with window changes, which is a strong indicator of cheating. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities, while normally not suspicious, are concerning when combined with the other high-suspicion activities. The clustering of window changes and focus changes around specific times also adds to the suspicion. Therefore, the score is 75 out of 100.",
+      "exam_name": "exam3",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows several suspicious patterns that suggest a high probability of cheating. Multiple 'Window change detected' and 'Window focus changed' events occurred outside the first and last 5 minutes, which is unusual. Additionally, there were several 'Copy' and 'Paste' actions combined with window changes, which is a strong indicator of cheating. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities, while normally not suspicious, are concerning when combined with the other high-suspicion activities. The clustering of window changes and focus changes around specific times also adds to the suspicion. Therefore, the score is 75 out of 100."
+      },
+      "algorithm_based_proctoring": {
+        "score": 86.2,
+        "factor1": "Window change detected:112.0",
+        "factor2": "Paste:70.0",
+        "factor3": "Candidate iris looking right:67.0"
+      },
+      "ml_based_proctoring": {
+        "score": 57
+      }
+    },
+    {
+      "id": 4,
+      "name": "candidate4",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 78.64,
+      "overall_analysis": "The activity log shows a high frequency of 'Window change detected' events, with a total of 12 occurrences. This is a HIGH SUSPICION activity. The events occur in rapid succession, with an average interval of 3.4 seconds between them, which is unusually frequent. Additionally, there is a 'Browser window swapped' event, another HIGH SUSPICION activity. These activities are concentrated within a short period, well outside the first 5 minutes, indicating a deliberate and systematic switching behavior. The clustering of these suspicious activities strongly suggests cheating behavior. The presence of a 'Window focus changed' event further supports this suspicion, as it is combined with other high-suspicion activities. Normal behaviors such as looking right or isolated window focus changes are not present to mitigate these suspicions.",
+      "exam_name": "exam4",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 85,
+        "analysis": "The activity log shows a high frequency of 'Window change detected' events, with a total of 12 occurrences. This is a HIGH SUSPICION activity. The events occur in rapid succession, with an average interval of 3.4 seconds between them, which is unusually frequent. Additionally, there is a 'Browser window swapped' event, another HIGH SUSPICION activity. These activities are concentrated within a short period, well outside the first 5 minutes, indicating a deliberate and systematic switching behavior. The clustering of these suspicious activities strongly suggests cheating behavior. The presence of a 'Window focus changed' event further supports this suspicion, as it is combined with other high-suspicion activities. Normal behaviors such as looking right or isolated window focus changes are not present to mitigate these suspicions."
+      },
+      "algorithm_based_proctoring": {
+        "score": 69.1,
+        "factor1": "Window change detected:140.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 90
+      }
+    },
+    {
+      "id": 5,
+      "name": "candidate5",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 73.72,
+      "overall_analysis": "The activity log shows a high frequency of window changes and focus changes, which are considered HIGH SUSPICION activities. There are 11 instances of 'Window change detected' and 8 instances of 'Window focus changed,' with several occurring in quick succession, suggesting systematic switching behavior. Additionally, there are 2 instances of 'Browser window swapped,' which is a highly suspicious activity. These activities occur outside the first and last 5 minutes, reducing the likelihood of them being related to setup or submission processes. The clustering of these activities and their frequency significantly deviate from normal test-taking behavior, strongly indicating potential cheating.",
+      "exam_name": "exam5",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of window changes and focus changes, which are considered HIGH SUSPICION activities. There are 11 instances of 'Window change detected' and 8 instances of 'Window focus changed,' with several occurring in quick succession, suggesting systematic switching behavior. Additionally, there are 2 instances of 'Browser window swapped,' which is a highly suspicious activity. These activities occur outside the first and last 5 minutes, reducing the likelihood of them being related to setup or submission processes. The clustering of these activities and their frequency significantly deviate from normal test-taking behavior, strongly indicating potential cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 71.8,
+        "factor1": "Window change detected:132.0",
+        "factor2": "Window focus changed:24.0",
+        "factor3": "Browser window swapped:22.5"
+      },
+      "ml_based_proctoring": {
+        "score": 58
+      }
+    },
+    {
+      "id": 6,
+      "name": "candidate6",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 75.28,
+      "overall_analysis": "The activity log shows a high frequency of window changes and tab changes, especially within the first minute of the exam. While the initial 5 minutes can have higher activity due to setup and adjustment, the clustered nature of these changes is suspicious. Additionally, browser window swaps detected at 00:01:10 and 00:29:53 are highly indicative of cheating, as they fall outside the initial and final 5-minute windows. The repeated window focus changes further suggest attempts to hide or switch between content. The extended period of inactivity followed by a browser swap also raises concerns. Although there are no detected copy/paste actions or secondary devices, the combination of frequent window and tab changes with browser swaps strongly suggests cheating behavior.",
+      "exam_name": "exam6",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of window changes and tab changes, especially within the first minute of the exam. While the initial 5 minutes can have higher activity due to setup and adjustment, the clustered nature of these changes is suspicious. Additionally, browser window swaps detected at 00:01:10 and 00:29:53 are highly indicative of cheating, as they fall outside the initial and final 5-minute windows. The repeated window focus changes further suggest attempts to hide or switch between content. The extended period of inactivity followed by a browser swap also raises concerns. Although there are no detected copy/paste actions or secondary devices, the combination of frequent window and tab changes with browser swaps strongly suggests cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 75.7,
+        "factor1": "Window change detected:144.0",
+        "factor2": "Tab change detected:36.0",
+        "factor3": "Browser window swapped:22.5"
+      },
+      "ml_based_proctoring": {
+        "score": 47
+      }
+    },
+    {
+      "id": 7,
+      "name": "candidate7",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 65.56,
+      "overall_analysis": "The activity log shows a mix of normal and suspicious behaviors. There are several HIGH SUSPICION activities detected, including multiple 'Window change detected' and 'Browser window swapped' events, as well as 'Cell phone detected' incidents. These activities are particularly concerning as they occur outside the first and last 5 minutes of the exam. Additionally, there are instances of 'No face detected,' which could indicate attempts to hide actions. However, the frequent 'Candidate iris looking right' activities are considered normal and do not significantly contribute to the suspicion. The presence of 'Copy' actions combined with window changes adds to the suspicion. Overall, while there are clear indicators of potential cheating, the frequency and pattern of these activities do not conclusively prove cheating, hence a moderate score of 50.",
+      "exam_name": "exam7",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 50,
+        "analysis": "The activity log shows a mix of normal and suspicious behaviors. There are several HIGH SUSPICION activities detected, including multiple 'Window change detected' and 'Browser window swapped' events, as well as 'Cell phone detected' incidents. These activities are particularly concerning as they occur outside the first and last 5 minutes of the exam. Additionally, there are instances of 'No face detected,' which could indicate attempts to hide actions. However, the frequent 'Candidate iris looking right' activities are considered normal and do not significantly contribute to the suspicion. The presence of 'Copy' actions combined with window changes adds to the suspicion. Overall, while there are clear indicators of potential cheating, the frequency and pattern of these activities do not conclusively prove cheating, hence a moderate score of 50."
+      },
+      "algorithm_based_proctoring": {
+        "score": 88.9,
+        "factor1": "Candidate iris looking right:289.5",
+        "factor2": "Window change detected:104.0",
+        "factor3": "Candidate looking right:32.0"
+      },
+      "ml_based_proctoring": {
+        "score": 33
+      }
+    },
+    {
+      "id": 8,
+      "name": "candidate8",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 71.36,
+      "overall_analysis": "The activity log shows a high frequency of 'Window change detected' and 'Window focus changed' events, which are classified as HIGH SUSPICION activities. There are 10 instances of 'Window change detected' and 2 instances of 'Window focus changed'. The timing of these events is also suspicious, with multiple occurrences outside the first and last 5 minutes of the exam. The clustering of these activities, particularly around the 4-minute mark, suggests a systematic switching behavior that is not typical of normal test-taking. Additionally, the presence of a 'Browser window swapped' event adds to the suspicion. The average interval between events is relatively short, indicating frequent activity. While there are no 'looking right' events logged, the combination and pattern of the detected activities strongly suggest cheating behavior.",
+      "exam_name": "exam8",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of 'Window change detected' and 'Window focus changed' events, which are classified as HIGH SUSPICION activities. There are 10 instances of 'Window change detected' and 2 instances of 'Window focus changed'. The timing of these events is also suspicious, with multiple occurrences outside the first and last 5 minutes of the exam. The clustering of these activities, particularly around the 4-minute mark, suggests a systematic switching behavior that is not typical of normal test-taking. Additionally, the presence of a 'Browser window swapped' event adds to the suspicion. The average interval between events is relatively short, indicating frequent activity. While there are no 'looking right' events logged, the combination and pattern of the detected activities strongly suggest cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 65.9,
+        "factor1": "Window change detected:116.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:6.0"
+      },
+      "ml_based_proctoring": {
+        "score": 78
+      }
+    },
+    {
+      "id": 9,
+      "name": "candidate9",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 58.16,
+      "overall_analysis": "The activity log shows a high frequency of 'Candidate looking right' events, which are generally considered normal behavior. However, there are several suspicious activities detected. There are 4 'Window change detected' events, 1 'Browser window swapped' event, and 3 'Copy/Paste' actions. The 'Copy/Paste' actions are particularly concerning as they are combined with window changes, which suggests potential cheating behavior. Additionally, the 'Window change detected' events are scattered throughout the exam, not just within the first or last 5 minutes, which is suspicious. The presence of 'Candidate iris looking left/right' events adds to the suspicion, as these are less common and could indicate the candidate is looking at something off-screen. Despite the high number of 'looking right' events, the combination of other suspicious activities warrants a moderate probability of cheating.",
+      "exam_name": "exam9",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 40,
+        "analysis": "The activity log shows a high frequency of 'Candidate looking right' events, which are generally considered normal behavior. However, there are several suspicious activities detected. There are 4 'Window change detected' events, 1 'Browser window swapped' event, and 3 'Copy/Paste' actions. The 'Copy/Paste' actions are particularly concerning as they are combined with window changes, which suggests potential cheating behavior. Additionally, the 'Window change detected' events are scattered throughout the exam, not just within the first or last 5 minutes, which is suspicious. The presence of 'Candidate iris looking left/right' events adds to the suspicion, as these are less common and could indicate the candidate is looking at something off-screen. Despite the high number of 'looking right' events, the combination of other suspicious activities warrants a moderate probability of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 85.4,
+        "factor1": "Candidate looking right:306.0",
+        "factor2": "Window change detected:44.0",
+        "factor3": "Paste:20.0"
+      },
+      "ml_based_proctoring": {
+        "score": 5
+      }
+    },
+    {
+      "id": 10,
+      "name": "candidate10",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 53.48,
+      "overall_analysis": "The activity log shows a high frequency of 'Candidate looking right' and 'Candidate looking down' events, which are generally considered normal behaviors. However, there are a few points of concern. There are 6 instances of 'Window change detected,' 2 instances of 'Window focus changed,' and 1 instance of 'Browser window swapped.' These activities are considered high suspicion, but they mostly occur within the first 5 minutes, which can be attributed to initial setup and adjustment. Additionally, there are 2 'Copy' and 3 'Paste' actions, which are highly suspicious, but they are not clustered with window changes or other high-suspicion activities. There is also no detection of a cell phone, secondary device, or extended periods of 'No face detected.' Therefore, while there are some suspicious activities, the overall pattern does not strongly indicate cheating, especially since many high-suspicion activities occur within the first 5 minutes.",
+      "exam_name": "exam10",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 30,
+        "analysis": "The activity log shows a high frequency of 'Candidate looking right' and 'Candidate looking down' events, which are generally considered normal behaviors. However, there are a few points of concern. There are 6 instances of 'Window change detected,' 2 instances of 'Window focus changed,' and 1 instance of 'Browser window swapped.' These activities are considered high suspicion, but they mostly occur within the first 5 minutes, which can be attributed to initial setup and adjustment. Additionally, there are 2 'Copy' and 3 'Paste' actions, which are highly suspicious, but they are not clustered with window changes or other high-suspicion activities. There is also no detection of a cell phone, secondary device, or extended periods of 'No face detected.' Therefore, while there are some suspicious activities, the overall pattern does not strongly indicate cheating, especially since many high-suspicion activities occur within the first 5 minutes."
+      },
+      "algorithm_based_proctoring": {
+        "score": 88.7,
+        "factor1": "Candidate looking down:270.5",
+        "factor2": "Candidate looking right:118.5",
+        "factor3": "Window change detected:60.0"
+      },
+      "ml_based_proctoring": {
+        "score": 26
+      }
+    },
+    {
+      "id": 11,
+      "name": "candidate11",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 58.76,
+      "overall_analysis": "The activity log shows a total of 11 events with a high frequency of window changes and focus changes. The first cluster of activities occurs within the initial 5 minutes, which can be attributed to setup and adjustment. However, there is a significant cluster of window changes and focus changes at the 00:02:12 mark, well outside the initial 5-minute window. This cluster includes multiple high-suspicion activities such as 'Window change detected' and 'Window focus changed,' which are repeated and occur in quick succession. The average interval between events is relatively short, suggesting a systematic switching behavior. While there are no other high-suspicion activities like copy/paste or secondary device detection, the repeated and clustered window changes mid-exam are highly suspicious. Normal behaviors like looking right are not logged, reducing the likelihood of false positives from natural behaviors.",
+      "exam_name": "exam11",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 60,
+        "analysis": "The activity log shows a total of 11 events with a high frequency of window changes and focus changes. The first cluster of activities occurs within the initial 5 minutes, which can be attributed to setup and adjustment. However, there is a significant cluster of window changes and focus changes at the 00:02:12 mark, well outside the initial 5-minute window. This cluster includes multiple high-suspicion activities such as 'Window change detected' and 'Window focus changed,' which are repeated and occur in quick succession. The average interval between events is relatively short, suggesting a systematic switching behavior. While there are no other high-suspicion activities like copy/paste or secondary device detection, the repeated and clustered window changes mid-exam are highly suspicious. Normal behaviors like looking right are not logged, reducing the likelihood of false positives from natural behaviors."
+      },
+      "algorithm_based_proctoring": {
+        "score": 56.9,
+        "factor1": "Window change detected:68.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:11.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 12,
+      "name": "candidate12",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 67.2,
+      "overall_analysis": "The activity log shows a high frequency of window changes and browser swaps, which are classified as HIGH SUSPICION activities. There are 6 window change detections and 2 browser window swaps within the first minute, which is unusual even for the initial setup period. Additionally, there is a browser window swap at 00:03:34, which is outside the first 5 minutes and is highly suspicious. The frequent window changes and browser swaps suggest a systematic switching behavior indicative of cheating. The repeated 'Candidate iris looking left' activity is also unusual and may indicate the candidate is looking at something suspicious to their left. The average interval of 11.4 seconds between events is relatively short, suggesting frequent and potentially coordinated suspicious activities.",
+      "exam_name": "exam12",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 70,
+        "analysis": "The activity log shows a high frequency of window changes and browser swaps, which are classified as HIGH SUSPICION activities. There are 6 window change detections and 2 browser window swaps within the first minute, which is unusual even for the initial setup period. Additionally, there is a browser window swap at 00:03:34, which is outside the first 5 minutes and is highly suspicious. The frequent window changes and browser swaps suggest a systematic switching behavior indicative of cheating. The repeated 'Candidate iris looking left' activity is also unusual and may indicate the candidate is looking at something suspicious to their left. The average interval of 11.4 seconds between events is relatively short, suggesting frequent and potentially coordinated suspicious activities."
+      },
+      "algorithm_based_proctoring": {
+        "score": 63.0,
+        "factor1": "Window change detected:68.0",
+        "factor2": "Browser window swapped:27.0",
+        "factor3": "Candidate iris looking left:12.0"
+      },
+      "ml_based_proctoring": {
+        "score": 65
+      }
+    },
+    {
+      "id": 13,
+      "name": "candidate13",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 69.8,
+      "overall_analysis": "The activity log shows a high frequency of 'Window change detected' and 'Browser window swapped' events, which are classified as HIGH SUSPICION activities. There are 6 window changes and 5 browser swaps, totaling 11 suspicious events. The first cluster of activities occurs within the initial 12 seconds, which could be attributed to setup and adjustment. However, a second cluster of similar activities occurs around the 7-minute mark, well outside the first 5 minutes. This cluster includes multiple window changes and browser swaps in quick succession, which is highly suspicious. The average interval between events is 87.2 seconds, but the clustering of events at specific times raises concern. The lack of other normal behaviors like looking right or down also contributes to the suspicion. Therefore, the probability of cheating is assessed as high.",
+      "exam_name": "exam13",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of 'Window change detected' and 'Browser window swapped' events, which are classified as HIGH SUSPICION activities. There are 6 window changes and 5 browser swaps, totaling 11 suspicious events. The first cluster of activities occurs within the initial 12 seconds, which could be attributed to setup and adjustment. However, a second cluster of similar activities occurs around the 7-minute mark, well outside the first 5 minutes. This cluster includes multiple window changes and browser swaps in quick succession, which is highly suspicious. The average interval between events is 87.2 seconds, but the clustering of events at specific times raises concern. The lack of other normal behaviors like looking right or down also contributes to the suspicion. Therefore, the probability of cheating is assessed as high."
+      },
+      "algorithm_based_proctoring": {
+        "score": 62.0,
+        "factor1": "Window change detected:60.0",
+        "factor2": "Browser window swapped:54.0",
+        "factor3": "NA"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 14,
+      "name": "candidate14",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 65.2,
+      "overall_analysis": "The activity log shows a concerning pattern of window changes and focus changes, especially outside the first and last 5 minutes. There are 11 'Window change detected' events and 4 'Window focus changed' events, with a cluster of activities around the 19-minute and 24-minute marks. The 'Browser window swapped' event at 29:08 is highly suspicious. The average interval of 193.3 seconds between events suggests a systematic pattern of switching, which is not typical of normal test-taking behavior. The absence of normal looking patterns and the presence of high suspicion activities contribute to a higher cheating probability.",
+      "exam_name": "exam14",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 65,
+        "analysis": "The activity log shows a concerning pattern of window changes and focus changes, especially outside the first and last 5 minutes. There are 11 'Window change detected' events and 4 'Window focus changed' events, with a cluster of activities around the 19-minute and 24-minute marks. The 'Browser window swapped' event at 29:08 is highly suspicious. The average interval of 193.3 seconds between events suggests a systematic pattern of switching, which is not typical of normal test-taking behavior. The absence of normal looking patterns and the presence of high suspicion activities contribute to a higher cheating probability."
+      },
+      "algorithm_based_proctoring": {
+        "score": 65.5,
+        "factor1": "Window change detected:116.0",
+        "factor2": "Browser window swapped:9.0",
+        "factor3": "Window focus changed:8.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 15,
+      "name": "candidate15",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 72.16,
+      "overall_analysis": "The activity log shows a high frequency of window changes and focus changes, which are classified as HIGH SUSPICION activities. There are 6 instances of 'Window change detected' and 2 instances of 'Window focus changed', with one instance of 'Browser window swapped'. These activities are not isolated but occur in clusters, especially around the 6-minute mark, well outside the first 5 minutes of setup and adjustment. The average interval between events is 76.8 seconds, indicating a systematic switching behavior rather than isolated incidents. Additionally, the lack of normal looking patterns or other low suspicion activities suggests that the student was engaged in suspicious behavior. The combination of these factors strongly indicates a high probability of cheating.",
+      "exam_name": "exam15",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 85,
+        "analysis": "The activity log shows a high frequency of window changes and focus changes, which are classified as HIGH SUSPICION activities. There are 6 instances of 'Window change detected' and 2 instances of 'Window focus changed', with one instance of 'Browser window swapped'. These activities are not isolated but occur in clusters, especially around the 6-minute mark, well outside the first 5 minutes of setup and adjustment. The average interval between events is 76.8 seconds, indicating a systematic switching behavior rather than isolated incidents. Additionally, the lack of normal looking patterns or other low suspicion activities suggests that the student was engaged in suspicious behavior. The combination of these factors strongly indicates a high probability of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 52.9,
+        "factor1": "Window change detected:60.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:5.0"
+      },
+      "ml_based_proctoring": {
+        "score": 71
+      }
+    },
+    {
+      "id": 16,
+      "name": "candidate16",
+      "status": "No Risk",
+      "color": "#388E3C",
+      "overall_score": 0.0,
+      "overall_analysis": "There are no events logged during the exam session. The total event count is zero, and there are no recorded activities or time intervals. Since there is no data to analyze, there is no indication of any suspicious behavior. Therefore, the probability of cheating is assessed to be zero.",
+      "exam_name": "exam16",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 0,
+        "analysis": "There are no events logged during the exam session. The total event count is zero, and there are no recorded activities or time intervals. Since there is no data to analyze, there is no indication of any suspicious behavior. Therefore, the probability of cheating is assessed to be zero."
+      },
+      "algorithm_based_proctoring": {
+        "score": 0,
+        "factor1": " NA",
+        "factor2": " NA",
+        "factor3": " NA"
+      },
+      "ml_based_proctoring": {
+        "score": 0
+      }
+    },
+    {
+      "id": 17,
+      "name": "candidate17",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 70.6,
+      "overall_analysis": "The activity log shows a high frequency of 'Window change detected' events, with a total of 10 occurrences. Most of these events are clustered within the first 20 seconds of the exam, which is suspicious but could also be attributed to initial setup and adjustment. However, there is another instance of 'Window change detected' at 00:06:31, which is well outside the first 5 minutes and raises concern. Additionally, there is a 'Browser window swapped' event at 00:00:17, which is a high suspicion activity. The combination of multiple window changes and a browser window swap within a short period is highly suspicious. The average interval between events is 55.1 seconds, indicating frequent activity. While some activity is expected in the first 5 minutes, the nature and frequency of these events suggest a high probability of cheating.",
+      "exam_name": "exam17",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of 'Window change detected' events, with a total of 10 occurrences. Most of these events are clustered within the first 20 seconds of the exam, which is suspicious but could also be attributed to initial setup and adjustment. However, there is another instance of 'Window change detected' at 00:06:31, which is well outside the first 5 minutes and raises concern. Additionally, there is a 'Browser window swapped' event at 00:00:17, which is a high suspicion activity. The combination of multiple window changes and a browser window swap within a short period is highly suspicious. The average interval between events is 55.1 seconds, indicating frequent activity. While some activity is expected in the first 5 minutes, the nature and frequency of these events suggest a high probability of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 64.0,
+        "factor1": "Window change detected:108.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 89
+      }
+    },
+    {
+      "id": 18,
+      "name": "candidate18",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 71.68,
+      "overall_analysis": "The activity log shows a high frequency of HIGH SUSPICION activities such as 'Window change detected' and 'Browser window swapped' within a short period. There are 6 instances of 'Window change detected' and 5 instances of 'Browser window swapped' within the first 14 seconds, which is highly unusual even for the initial setup phase. The average interval between these events is only 1.4 seconds, indicating rapid and systematic switching behavior. While these activities occur within the first 5 minutes, their frequency and clustering are highly suspicious. Additionally, the presence of 'NaN:NaN:NaN' timestamps suggests potential tampering with the logging system, further raising the suspicion of cheating.",
+      "exam_name": "exam18",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of HIGH SUSPICION activities such as 'Window change detected' and 'Browser window swapped' within a short period. There are 6 instances of 'Window change detected' and 5 instances of 'Browser window swapped' within the first 14 seconds, which is highly unusual even for the initial setup phase. The average interval between these events is only 1.4 seconds, indicating rapid and systematic switching behavior. While these activities occur within the first 5 minutes, their frequency and clustering are highly suspicious. Additionally, the presence of 'NaN:NaN:NaN' timestamps suggests potential tampering with the logging system, further raising the suspicion of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 66.7,
+        "factor1": "Window change detected:68.0",
+        "factor2": "Browser window swapped:67.5",
+        "factor3": "Window focus changed:5.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 19,
+      "name": "candidate19",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 67.24,
+      "overall_analysis": "The activity log shows a high frequency of window changes and browser swaps, which are classified as HIGH SUSPICION activities. Although some of these activities occurred within the first 5 minutes, which can be attributed to initial setup and adjustment, there is a browser window swap at 40 minutes, which is well outside this initial period. This mid-exam browser swap is particularly suspicious. Additionally, the high number of window changes (5 instances) and window focus changes (3 instances) suggests a pattern of switching between windows, which is a strong indicator of cheating. The irregular timestamp 'NaN:NaN:NaN' also raises concern as it might indicate a disruption or tampering with the proctoring system. The average interval of 398.2 seconds between events is relatively long, but the clustering of events at the beginning and the isolated event mid-exam are more concerning than the average interval. Overall, the combination of multiple HIGH SUSPICION activities and their timing strongly suggests cheating behavior.",
+      "exam_name": "exam19",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of window changes and browser swaps, which are classified as HIGH SUSPICION activities. Although some of these activities occurred within the first 5 minutes, which can be attributed to initial setup and adjustment, there is a browser window swap at 40 minutes, which is well outside this initial period. This mid-exam browser swap is particularly suspicious. Additionally, the high number of window changes (5 instances) and window focus changes (3 instances) suggests a pattern of switching between windows, which is a strong indicator of cheating. The irregular timestamp 'NaN:NaN:NaN' also raises concern as it might indicate a disruption or tampering with the proctoring system. The average interval of 398.2 seconds between events is relatively long, but the clustering of events at the beginning and the isolated event mid-exam are more concerning than the average interval. Overall, the combination of multiple HIGH SUSPICION activities and their timing strongly suggests cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 55.6,
+        "factor1": "Window change detected:56.0",
+        "factor2": "Browser window swapped:22.5",
+        "factor3": "Window focus changed:9.0"
+      },
+      "ml_based_proctoring": {
+        "score": 88
+      }
+    },
+    {
+      "id": 20,
+      "name": "candidate20",
+      "status": "Low Risk",
+      "color": "#FBC02D",
+      "overall_score": 31.64,
+      "overall_analysis": "The activity log shows a cluster of window changes and a browser window swap within the first minute, which is somewhat suspicious. However, these activities occurred during the initial setup period, where higher activity is expected. There is another window change and focus change at the 3-minute mark, which is still within the initial high-activity period. The relatively low total number of events and the lack of high-suspicion activities outside the first 5 minutes contribute to the lower suspicion score. The average interval between events is fairly high, indicating no sustained pattern of suspicious behavior.",
+      "exam_name": "exam20",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 20,
+        "analysis": "The activity log shows a cluster of window changes and a browser window swap within the first minute, which is somewhat suspicious. However, these activities occurred during the initial setup period, where higher activity is expected. There is another window change and focus change at the 3-minute mark, which is still within the initial high-activity period. The relatively low total number of events and the lack of high-suspicion activities outside the first 5 minutes contribute to the lower suspicion score. The average interval between events is fairly high, indicating no sustained pattern of suspicious behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 49.1,
+        "factor1": "Window change detected:48.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:6.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 21,
+      "name": "candidate21",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 96.44,
+      "overall_analysis": "The proctoring log reveals highly suspicious activity throughout the exam, strongly indicating cheating. \n\nFirstly, the 'No face detected' activity occurs 546 times, which is extremely frequent and suggests the candidate was not present in front of the camera for most of the exam. This alone is a major indicator of potential cheating. \n\nSecondly, there are multiple instances of 'Window change detected' and 'Browser window swapped' activities, totaling 14 and 10 times respectively. These activities are particularly concerning when they occur outside the first and last 5 minutes of the exam, as they suggest the candidate might be switching between the exam window and other windows or applications. \n\nAdditionally, there are clusters of 'Copy' and 'Paste' activities around the 13:48 mark, which, when combined with window changes, strongly suggest copying and pasting answers from an external source. \n\nThe pattern of 'No face detected' activity is consistent throughout the exam, including during the middle sections where such frequent absences are highly unusual and suspicious. \n\nGiven the frequency and consistency of these high-suspicion activities, it is highly likely that the candidate was engaged in cheating behavior.",
+      "exam_name": "exam21",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 95,
+        "analysis": "The proctoring log reveals highly suspicious activity throughout the exam, strongly indicating cheating. \n\nFirstly, the 'No face detected' activity occurs 546 times, which is extremely frequent and suggests the candidate was not present in front of the camera for most of the exam. This alone is a major indicator of potential cheating. \n\nSecondly, there are multiple instances of 'Window change detected' and 'Browser window swapped' activities, totaling 14 and 10 times respectively. These activities are particularly concerning when they occur outside the first and last 5 minutes of the exam, as they suggest the candidate might be switching between the exam window and other windows or applications. \n\nAdditionally, there are clusters of 'Copy' and 'Paste' activities around the 13:48 mark, which, when combined with window changes, strongly suggest copying and pasting answers from an external source. \n\nThe pattern of 'No face detected' activity is consistent throughout the exam, including during the middle sections where such frequent absences are highly unusual and suspicious. \n\nGiven the frequency and consistency of these high-suspicion activities, it is highly likely that the candidate was engaged in cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 98.6,
+        "factor1": "No face detected:4596.0",
+        "factor2": "Window change detected:140.0",
+        "factor3": "Browser window swapped:108.0"
+      },
+      "ml_based_proctoring": {
+        "score": 5
+      }
+    },
+    {
+      "id": 22,
+      "name": "candidate22",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 77.88,
+      "overall_analysis": "The activity log shows several suspicious patterns that suggest a moderate to high likelihood of cheating. First, there are multiple instances of 'Window focus changed' and 'Window change detected' activities outside the first and last 5 minutes of the exam, which are not typical for normal test-taking behavior. The presence of a 'Browser window swapped' event is also highly suspicious. Additionally, the 'Copy' and 'Paste' actions, especially when combined with window changes, are strong indicators of potential cheating. While 'Candidate looking right' is a common and generally normal behavior, the high frequency of this activity combined with other suspicious actions raises concerns. The 'Candidate iris looking right' and 'Candidate iris looking left' activities, while less frequent, also contribute to the overall suspicion. The average interval between events is relatively short, suggesting frequent activity that is not typical for a focused exam environment. Overall, the combination of these factors points to a significant likelihood of cheating behavior.",
+      "exam_name": "exam22",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 70,
+        "analysis": "The activity log shows several suspicious patterns that suggest a moderate to high likelihood of cheating. First, there are multiple instances of 'Window focus changed' and 'Window change detected' activities outside the first and last 5 minutes of the exam, which are not typical for normal test-taking behavior. The presence of a 'Browser window swapped' event is also highly suspicious. Additionally, the 'Copy' and 'Paste' actions, especially when combined with window changes, are strong indicators of potential cheating. While 'Candidate looking right' is a common and generally normal behavior, the high frequency of this activity combined with other suspicious actions raises concerns. The 'Candidate iris looking right' and 'Candidate iris looking left' activities, while less frequent, also contribute to the overall suspicion. The average interval between events is relatively short, suggesting frequent activity that is not typical for a focused exam environment. Overall, the combination of these factors points to a significant likelihood of cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 89.7,
+        "factor1": "Candidate looking right:355.0",
+        "factor2": "Candidate iris looking right:88.0",
+        "factor3": "Window change detected:56.0"
+      },
+      "ml_based_proctoring": {
+        "score": 24
+      }
+    },
+    {
+      "id": 23,
+      "name": "candidate23",
+      "status": "Low Risk",
+      "color": "#FBC02D",
+      "overall_score": 47.08,
+      "overall_analysis": "The log shows a high frequency of 'Candidate looking right' activities, which is considered normal behavior. There are only a few instances of 'Window change detected' and one instance each of 'Window focus changed' and 'Browser window swapped,' all of which occurred within the first 30 seconds of the exam. These activities can be attributed to initial setup and adjustment. There are no instances of high-suspicion activities such as 'Copy/Paste actions,' 'Tab change detected,' 'Laptop detected,' 'Cell phone detected,' or 'No face detected' outside the first and last 5 minutes. The average interval between events is 6.9 seconds, which is consistent with normal test-taking behavior. Therefore, the likelihood of cheating is low.",
+      "exam_name": "exam23",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 20,
+        "analysis": "The log shows a high frequency of 'Candidate looking right' activities, which is considered normal behavior. There are only a few instances of 'Window change detected' and one instance each of 'Window focus changed' and 'Browser window swapped,' all of which occurred within the first 30 seconds of the exam. These activities can be attributed to initial setup and adjustment. There are no instances of high-suspicion activities such as 'Copy/Paste actions,' 'Tab change detected,' 'Laptop detected,' 'Cell phone detected,' or 'No face detected' outside the first and last 5 minutes. The average interval between events is 6.9 seconds, which is consistent with normal test-taking behavior. Therefore, the likelihood of cheating is low."
+      },
+      "algorithm_based_proctoring": {
+        "score": 87.7,
+        "factor1": "Candidate looking right:338.0",
+        "factor2": "Candidate looking down:77.0",
+        "factor3": "Window change detected:44.0"
+      },
+      "ml_based_proctoring": {
+        "score": 4
+      }
+    },
+    {
+      "id": 24,
+      "name": "candidate24",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 88.4,
+      "overall_analysis": "The activity log shows a high frequency of 'Candidate looking up' and 'No face detected' events, which are suspicious activities. There are also multiple instances of 'Window change detected' and 'Browser window swapped' outside the first and last 5 minutes, which are highly suspicious. The detection of a 'Laptop' also adds to the suspicion. The frequent 'looking up' could indicate the candidate is looking at something above the screen, possibly for answers. The clustering of window changes and the extended periods of 'no face detected' are particularly concerning. While 'looking right' is common, the combination of these activities with other suspicious behaviors significantly increases the likelihood of cheating.",
+      "exam_name": "exam24",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 85,
+        "analysis": "The activity log shows a high frequency of 'Candidate looking up' and 'No face detected' events, which are suspicious activities. There are also multiple instances of 'Window change detected' and 'Browser window swapped' outside the first and last 5 minutes, which are highly suspicious. The detection of a 'Laptop' also adds to the suspicion. The frequent 'looking up' could indicate the candidate is looking at something above the screen, possibly for answers. The clustering of window changes and the extended periods of 'no face detected' are particularly concerning. While 'looking right' is common, the combination of these activities with other suspicious behaviors significantly increases the likelihood of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 93.5,
+        "factor1": "No face detected:296.0",
+        "factor2": "Candidate looking up:268.0",
+        "factor3": "Window change detected:180.0"
+      },
+      "ml_based_proctoring": {
+        "score": 48
+      }
+    },
+    {
+      "id": 25,
+      "name": "candidate25",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 60.4,
+      "overall_analysis": "The activity log shows a significant number of window changes and focus changes, which are classified as HIGH SUSPICION activities. There are 6 instances of 'Window change detected' and 3 instances of 'Window focus changed', with 1 instance of 'Browser window swapped'. These activities are not isolated but occur in clusters, particularly around the 8-minute mark, well outside the first and last 5 minutes of the exam. The clustered nature of these activities and the fact that they include browser window swaps, which are highly suspicious, suggest a higher probability of cheating. The average interval between events is 74.6 seconds, indicating a systematic pattern of switching rather than random or isolated incidents. While there are no 'looking right' activities logged, the presence of multiple high-suspicion activities in clusters raises significant concern.",
+      "exam_name": "exam25",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 65,
+        "analysis": "The activity log shows a significant number of window changes and focus changes, which are classified as HIGH SUSPICION activities. There are 6 instances of 'Window change detected' and 3 instances of 'Window focus changed', with 1 instance of 'Browser window swapped'. These activities are not isolated but occur in clusters, particularly around the 8-minute mark, well outside the first and last 5 minutes of the exam. The clustered nature of these activities and the fact that they include browser window swaps, which are highly suspicious, suggest a higher probability of cheating. The average interval between events is 74.6 seconds, indicating a systematic pattern of switching rather than random or isolated incidents. While there are no 'looking right' activities logged, the presence of multiple high-suspicion activities in clusters raises significant concern."
+      },
+      "algorithm_based_proctoring": {
+        "score": 53.5,
+        "factor1": "Window change detected:60.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:7.0"
+      },
+      "ml_based_proctoring": {
+        "score": 78
+      }
+    },
+    {
+      "id": 26,
+      "name": "candidate26",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 85.48,
+      "overall_analysis": "The activity log shows several suspicious patterns indicating a high likelihood of cheating. Key observations include multiple instances of 'No face detected' (61 times), which is highly unusual and suggests the candidate may have been looking away from the screen or obscuring their face. Additionally, there are clusters of window changes and browser window swaps, especially around the 7-minute mark, which are not typical of normal test-taking behavior. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities, while normally benign, become suspicious when combined with the extended periods of no face detection and systematic window changes. The pattern of no face detection becoming more frequent towards the end of the log is particularly concerning. These activities strongly suggest that the candidate was engaged in behaviors inconsistent with focused test-taking, such as referring to external materials or using a secondary device.",
+      "exam_name": "exam26",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 80,
+        "analysis": "The activity log shows several suspicious patterns indicating a high likelihood of cheating. Key observations include multiple instances of 'No face detected' (61 times), which is highly unusual and suggests the candidate may have been looking away from the screen or obscuring their face. Additionally, there are clusters of window changes and browser window swaps, especially around the 7-minute mark, which are not typical of normal test-taking behavior. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities, while normally benign, become suspicious when combined with the extended periods of no face detection and systematic window changes. The pattern of no face detection becoming more frequent towards the end of the log is particularly concerning. These activities strongly suggest that the candidate was engaged in behaviors inconsistent with focused test-taking, such as referring to external materials or using a secondary device."
+      },
+      "algorithm_based_proctoring": {
+        "score": 93.7,
+        "factor1": "No face detected:524.0",
+        "factor2": "Candidate looking right:268.5",
+        "factor3": "Candidate iris looking right:137.0"
+      },
+      "ml_based_proctoring": {
+        "score": 34
+      }
+    },
+    {
+      "id": 27,
+      "name": "candidate27",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 61.0,
+      "overall_analysis": "The activity log shows a high frequency of 'Candidate looking down' events, which are normal for typing or reading. However, there are several 'Window change detected' and 'Window focus changed' events that raise suspicion. These events occur in clusters and are not isolated incidents, which is concerning. The 'Browser window swapped' event also adds to the suspicion. Most of these activities occur outside the first and last 5 minutes, which is when higher activity is considered normal. The 'Candidate looking right' events are frequent but are generally considered normal behavior. The combination of window changes and focus changes, along with the browser window swap, suggests a moderate probability of cheating. The score of 50 reflects this moderate suspicion, considering both the suspicious and normal activities observed.",
+      "exam_name": "exam27",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 50,
+        "analysis": "The activity log shows a high frequency of 'Candidate looking down' events, which are normal for typing or reading. However, there are several 'Window change detected' and 'Window focus changed' events that raise suspicion. These events occur in clusters and are not isolated incidents, which is concerning. The 'Browser window swapped' event also adds to the suspicion. Most of these activities occur outside the first and last 5 minutes, which is when higher activity is considered normal. The 'Candidate looking right' events are frequent but are generally considered normal behavior. The combination of window changes and focus changes, along with the browser window swap, suggests a moderate probability of cheating. The score of 50 reflects this moderate suspicion, considering both the suspicious and normal activities observed."
+      },
+      "algorithm_based_proctoring": {
+        "score": 77.5,
+        "factor1": "Candidate looking down:146.5",
+        "factor2": "Window change detected:60.0",
+        "factor3": "Candidate looking right:14.5"
+      },
+      "ml_based_proctoring": {
+        "score": 16
+      }
+    },
+    {
+      "id": 28,
+      "name": "candidate28",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 75.96,
+      "overall_analysis": "The activity log shows several suspicious patterns that suggest a moderate to high likelihood of cheating. There are a total of 6 'Window change detected' activities and 2 'Browser window swapped' activities, which are highly suspicious. These activities are not isolated to the first or last 5 minutes but occur throughout the exam, indicating sustained irregular behavior. Additionally, there is 1 instance of 'Cell phone detected,' which is a strong indicator of cheating. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities, while normally not suspicious, become more concerning when combined with the window changes and browser swaps. The detection of a cell phone further increases the suspicion. The average interval between events is relatively short, suggesting frequent shifts in attention. Overall, the combination of these activities and their distribution throughout the exam leads to a score of 70.",
+      "exam_name": "exam28",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 70,
+        "analysis": "The activity log shows several suspicious patterns that suggest a moderate to high likelihood of cheating. There are a total of 6 'Window change detected' activities and 2 'Browser window swapped' activities, which are highly suspicious. These activities are not isolated to the first or last 5 minutes but occur throughout the exam, indicating sustained irregular behavior. Additionally, there is 1 instance of 'Cell phone detected,' which is a strong indicator of cheating. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities, while normally not suspicious, become more concerning when combined with the window changes and browser swaps. The detection of a cell phone further increases the suspicion. The average interval between events is relatively short, suggesting frequent shifts in attention. Overall, the combination of these activities and their distribution throughout the exam leads to a score of 70."
+      },
+      "algorithm_based_proctoring": {
+        "score": 84.9,
+        "factor1": "Candidate iris looking right:126.5",
+        "factor2": "Candidate looking right:83.5",
+        "factor3": "Window change detected:68.0"
+      },
+      "ml_based_proctoring": {
+        "score": 27
+      }
+    },
+    {
+      "id": 29,
+      "name": "candidate29",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 57.28,
+      "overall_analysis": "The activity log shows a high frequency of 'Candidate looking down' and 'Candidate looking right,' which are generally normal behaviors. However, there are several 'Window change detected' and 'Window focus changed' activities, which are more suspicious. These activities occur throughout the exam, not just within the first or last 5 minutes. The 'Browser window swapped' activity is also a high suspicion activity. While 'looking right' is common, the combination of window changes and focus changes suggests potential cheating behavior. The average interval between events is relatively short, indicating frequent activity. However, the lack of more severe activities like 'Cell phone detected' or 'Copy/Paste actions' keeps the score from being higher. Overall, the pattern suggests a moderate likelihood of cheating.",
+      "exam_name": "exam29",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 35,
+        "analysis": "The activity log shows a high frequency of 'Candidate looking down' and 'Candidate looking right,' which are generally normal behaviors. However, there are several 'Window change detected' and 'Window focus changed' activities, which are more suspicious. These activities occur throughout the exam, not just within the first or last 5 minutes. The 'Browser window swapped' activity is also a high suspicion activity. While 'looking right' is common, the combination of window changes and focus changes suggests potential cheating behavior. The average interval between events is relatively short, indicating frequent activity. However, the lack of more severe activities like 'Cell phone detected' or 'Copy/Paste actions' keeps the score from being higher. Overall, the pattern suggests a moderate likelihood of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 90.7,
+        "factor1": "Candidate looking down:489.0",
+        "factor2": "Candidate looking right:89.0",
+        "factor3": "Window change detected:76.0"
+      },
+      "ml_based_proctoring": {
+        "score": 23
+      }
+    },
+    {
+      "id": 30,
+      "name": "candidate30",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 89.8,
+      "overall_analysis": {
+        "suspicious_patterns": [
+          "There are 10 instances of 'Window change detected', 5 instances of 'Window focus changed', and 1 instance of 'Browser window swapped'. These activities are highly suspicious, especially since they occur in clusters and outside the first and last 5 minutes.",
+          "The activity 'No face detected' occurs 227 times, which is extremely high and suggests extended periods where the candidate's face is not visible. This is a strong indicator of potential cheating, as it could mean the candidate is looking away from the screen or has left the camera's view.",
+          "The combination of 'Window change detected' and 'No face detected' is particularly concerning, as it suggests the candidate might be referencing external materials or devices.",
+          "Although 'Candidate looking right' is a common behavior, its high frequency (239 times) combined with the suspicious window changes and the extended 'No face detected' periods raises suspicions."
+        ],
+        "normal_patterns": [
+          "The activity 'Candidate looking down' occurs 20 times, which is normal for typing or reading questions.",
+          "The activity 'Candidate iris looking right' occurs 8 times, which is also within normal ranges and can be attributed to natural eye movements."
+        ],
+        "conclusion": "The high number of 'Window change detected', 'Window focus changed', and 'No face detected' activities, along with their clustered patterns outside the first and last 5 minutes, strongly suggests cheating behavior. The frequent 'Candidate looking right' further supports this suspicion when considered in context with the other highly suspicious activities."
+      },
+      "exam_name": "exam30",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 85,
+        "analysis": {
+          "suspicious_patterns": [
+            "There are 10 instances of 'Window change detected', 5 instances of 'Window focus changed', and 1 instance of 'Browser window swapped'. These activities are highly suspicious, especially since they occur in clusters and outside the first and last 5 minutes.",
+            "The activity 'No face detected' occurs 227 times, which is extremely high and suggests extended periods where the candidate's face is not visible. This is a strong indicator of potential cheating, as it could mean the candidate is looking away from the screen or has left the camera's view.",
+            "The combination of 'Window change detected' and 'No face detected' is particularly concerning, as it suggests the candidate might be referencing external materials or devices.",
+            "Although 'Candidate looking right' is a common behavior, its high frequency (239 times) combined with the suspicious window changes and the extended 'No face detected' periods raises suspicions."
+          ],
+          "normal_patterns": [
+            "The activity 'Candidate looking down' occurs 20 times, which is normal for typing or reading questions.",
+            "The activity 'Candidate iris looking right' occurs 8 times, which is also within normal ranges and can be attributed to natural eye movements."
+          ],
+          "conclusion": "The high number of 'Window change detected', 'Window focus changed', and 'No face detected' activities, along with their clustered patterns outside the first and last 5 minutes, strongly suggests cheating behavior. The frequent 'Candidate looking right' further supports this suspicion when considered in context with the other highly suspicious activities."
+        }
+      },
+      "algorithm_based_proctoring": {
+        "score": 97.0,
+        "factor1": "No face detected:1816.0",
+        "factor2": "Candidate looking right:259.5",
+        "factor3": "Window change detected:108.0"
+      },
+      "ml_based_proctoring": {
+        "score": 39
+      }
+    },
+    {
+      "id": 31,
+      "name": "candidate31",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 68.28,
+      "overall_analysis": "The activity log shows a high frequency of window changes and focus changes, especially within the first 15 seconds, which is highly suspicious. There are 7 window change detections and 3 window focus changes, with one browser window swap. The clustering of these activities at the beginning of the exam is unusual and suggests potential setup for cheating. Additionally, there is another window change and focus change around the 14-minute mark, well outside the initial 5-minute setup period. The high number of window-related activities and their timing patterns strongly indicate a higher likelihood of cheating behavior.",
+      "exam_name": "exam31",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of window changes and focus changes, especially within the first 15 seconds, which is highly suspicious. There are 7 window change detections and 3 window focus changes, with one browser window swap. The clustering of these activities at the beginning of the exam is unusual and suggests potential setup for cheating. Additionally, there is another window change and focus change around the 14-minute mark, well outside the initial 5-minute setup period. The high number of window-related activities and their timing patterns strongly indicate a higher likelihood of cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 58.2,
+        "factor1": "Window change detected:76.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:8.0"
+      },
+      "ml_based_proctoring": {
+        "score": 89
+      }
+    },
+    {
+      "id": 32,
+      "name": "candidate32",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 95.16,
+      "overall_analysis": "The activity log shows several highly suspicious patterns that strongly suggest cheating behavior. Firstly, there are multiple instances of 'Window change detected' and 'Browser window swapped' outside the initial and final 5-minute windows, which are clear indicators of potential cheating. Additionally, there is a detection of a 'Cell phone' at 00:18:14, which is a high suspicion activity. Furthermore, there are numerous instances of 'No face detected,' which is highly unusual and suggests the candidate may have been looking away from the screen for extended periods. The frequent 'Candidate looking right' activities, while normally not suspicious, become concerning when combined with the other high suspicion activities. The clustering of these activities and the detection of a cell phone significantly increase the likelihood of cheating.",
+      "exam_name": "exam32",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 95,
+        "analysis": "The activity log shows several highly suspicious patterns that strongly suggest cheating behavior. Firstly, there are multiple instances of 'Window change detected' and 'Browser window swapped' outside the initial and final 5-minute windows, which are clear indicators of potential cheating. Additionally, there is a detection of a 'Cell phone' at 00:18:14, which is a high suspicion activity. Furthermore, there are numerous instances of 'No face detected,' which is highly unusual and suggests the candidate may have been looking away from the screen for extended periods. The frequent 'Candidate looking right' activities, while normally not suspicious, become concerning when combined with the other high suspicion activities. The clustering of these activities and the detection of a cell phone significantly increase the likelihood of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 95.4,
+        "factor1": "No face detected:1128.0",
+        "factor2": "Candidate looking right:190.5",
+        "factor3": "Window change detected:56.0"
+      },
+      "ml_based_proctoring": {
+        "score": 55
+      }
+    },
+    {
+      "id": 33,
+      "name": "candidate33",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 59.72,
+      "overall_analysis": "The log shows a high frequency of 'Candidate looking right' activities, which is considered normal behavior and does not significantly indicate cheating. However, there are several 'Window change detected' and 'Window focus changed' activities, which are more suspicious. These activities occur in clusters and are spread throughout the exam, not just within the first or last 5 minutes. The presence of a 'Browser window swapped' event also raises suspicion. The 'Candidate iris looking left' and 'Candidate iris looking right' activities are noted but are not highly indicative of cheating on their own. The average interval between events is relatively short, suggesting frequent activity, but this could also be due to the high number of normal 'looking right' activities. Overall, while there are some suspicious activities, the high frequency of normal behavior and the lack of more severe indicators such as 'Cell phone detected' or 'Copy/Paste actions' lead to a moderate suspicion score.",
+      "exam_name": "exam33",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 40,
+        "analysis": "The log shows a high frequency of 'Candidate looking right' activities, which is considered normal behavior and does not significantly indicate cheating. However, there are several 'Window change detected' and 'Window focus changed' activities, which are more suspicious. These activities occur in clusters and are spread throughout the exam, not just within the first or last 5 minutes. The presence of a 'Browser window swapped' event also raises suspicion. The 'Candidate iris looking left' and 'Candidate iris looking right' activities are noted but are not highly indicative of cheating on their own. The average interval between events is relatively short, suggesting frequent activity, but this could also be due to the high number of normal 'looking right' activities. Overall, while there are some suspicious activities, the high frequency of normal behavior and the lack of more severe indicators such as 'Cell phone detected' or 'Copy/Paste actions' lead to a moderate suspicion score."
+      },
+      "algorithm_based_proctoring": {
+        "score": 89.3,
+        "factor1": "Candidate looking right:510.5",
+        "factor2": "Window change detected:52.0",
+        "factor3": "Browser window swapped:13.5"
+      },
+      "ml_based_proctoring": {
+        "score": 2
+      }
+    },
+    {
+      "id": 34,
+      "name": "candidate34",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 53.84,
+      "overall_analysis": "The activity log shows a high frequency of 'Candidate iris looking right' and 'Candidate looking right', which are generally considered normal behaviors. However, there are several instances of 'Window change detected' and 'Browser window swapped' that occur outside the first and last 5 minutes of the exam. These activities are highly suspicious. Additionally, there is one instance of 'No face detected', which is also a high suspicion activity. The suspicious activities are not clustered but are spread out throughout the exam, which slightly reduces the likelihood of cheating. The average interval between events is 16.3 seconds, which is not excessively frequent. Overall, while there are some suspicious activities, the majority of the logged behaviors are normal, leading to a moderate probability of cheating.",
+      "exam_name": "exam34",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 35,
+        "analysis": "The activity log shows a high frequency of 'Candidate iris looking right' and 'Candidate looking right', which are generally considered normal behaviors. However, there are several instances of 'Window change detected' and 'Browser window swapped' that occur outside the first and last 5 minutes of the exam. These activities are highly suspicious. Additionally, there is one instance of 'No face detected', which is also a high suspicion activity. The suspicious activities are not clustered but are spread out throughout the exam, which slightly reduces the likelihood of cheating. The average interval between events is 16.3 seconds, which is not excessively frequent. Overall, while there are some suspicious activities, the majority of the logged behaviors are normal, leading to a moderate probability of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 82.1,
+        "factor1": "Candidate iris looking right:192.5",
+        "factor2": "Window change detected:60.0",
+        "factor3": "Browser window swapped:31.5"
+      },
+      "ml_based_proctoring": {
+        "score": 25
+      }
+    },
+    {
+      "id": 35,
+      "name": "candidate35",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 68.92,
+      "overall_analysis": "The activity log shows a significant number of HIGH SUSPICION activities, particularly 'Window change detected' (8 times) and 'Browser window swapped' (4 times). These activities are clustered and occur outside the initial and final 5-minute windows, which is suspicious. Additionally, there is an instance of 'No face detected,' which is a high-suspicion activity. The frequent 'Candidate looking right' activities are normally not suspicious, but their high frequency combined with other suspicious activities raises concern. The short average interval between events (4.9 seconds) suggests rapid, potentially systematic behavior. The combination of these factors strongly suggests a higher likelihood of cheating.",
+      "exam_name": "exam35",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 65,
+        "analysis": "The activity log shows a significant number of HIGH SUSPICION activities, particularly 'Window change detected' (8 times) and 'Browser window swapped' (4 times). These activities are clustered and occur outside the initial and final 5-minute windows, which is suspicious. Additionally, there is an instance of 'No face detected,' which is a high-suspicion activity. The frequent 'Candidate looking right' activities are normally not suspicious, but their high frequency combined with other suspicious activities raises concern. The short average interval between events (4.9 seconds) suggests rapid, potentially systematic behavior. The combination of these factors strongly suggests a higher likelihood of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 74.8,
+        "factor1": "Window change detected:92.0",
+        "factor2": "Browser window swapped:54.0",
+        "factor3": "Candidate looking right:40.5"
+      },
+      "ml_based_proctoring": {
+        "score": 27
+      }
+    },
+    {
+      "id": 36,
+      "name": "candidate36",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 80.36,
+      "overall_analysis": "The activity log shows several highly suspicious activities. First, there are multiple instances of 'Window change detected' and 'Browser window swapped' outside the initial and final 5-minute periods, which are not typical behaviors during an exam. Additionally, there are four instances of 'Cell phone detected,' which is a clear indicator of potential cheating. The frequent 'looking right' and 'looking down' activities are normal behaviors, but when combined with the detection of a cell phone and multiple window changes, they raise significant concern. The clustering of these activities and the detection of a secondary device strongly suggest cheating behavior.",
+      "exam_name": "exam36",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 85,
+        "analysis": "The activity log shows several highly suspicious activities. First, there are multiple instances of 'Window change detected' and 'Browser window swapped' outside the initial and final 5-minute periods, which are not typical behaviors during an exam. Additionally, there are four instances of 'Cell phone detected,' which is a clear indicator of potential cheating. The frequent 'looking right' and 'looking down' activities are normal behaviors, but when combined with the detection of a cell phone and multiple window changes, they raise significant concern. The clustering of these activities and the detection of a secondary device strongly suggest cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 73.4,
+        "factor1": "Candidate looking down:54.0",
+        "factor2": "Window change detected:44.0",
+        "factor3": "Cell phone detected:40.0"
+      },
+      "ml_based_proctoring": {
+        "score": 22
+      }
+    },
+    {
+      "id": 37,
+      "name": "candidate37",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 75.44,
+      "overall_analysis": "The activity log shows several suspicious activities that suggest a high probability of cheating. Key indicators include multiple 'Window change detected' and 'Browser window swapped' events, which are high-suspicion activities. These events occur in clusters and are not isolated incidents, which is particularly concerning. Additionally, a 'Cell phone detected' event was logged, which is a clear indicator of potential cheating. While 'Candidate looking right' is a common and normal behavior, the frequency and duration of these events, combined with the other suspicious activities, raise significant concerns. The suspicious activities occur outside the first and last 5 minutes of the exam, further supporting the suspicion of cheating.",
+      "exam_name": "exam37",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 70,
+        "analysis": "The activity log shows several suspicious activities that suggest a high probability of cheating. Key indicators include multiple 'Window change detected' and 'Browser window swapped' events, which are high-suspicion activities. These events occur in clusters and are not isolated incidents, which is particularly concerning. Additionally, a 'Cell phone detected' event was logged, which is a clear indicator of potential cheating. While 'Candidate looking right' is a common and normal behavior, the frequency and duration of these events, combined with the other suspicious activities, raise significant concerns. The suspicious activities occur outside the first and last 5 minutes of the exam, further supporting the suspicion of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 83.6,
+        "factor1": "Candidate looking right:219.5",
+        "factor2": "Window change detected:68.0",
+        "factor3": "Browser window swapped:54.0"
+      },
+      "ml_based_proctoring": {
+        "score": 5
+      }
+    },
+    {
+      "id": 38,
+      "name": "candidate38",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 77.04,
+      "overall_analysis": "The activity log shows several suspicious patterns that suggest a moderate to high likelihood of cheating. Firstly, there are multiple instances of 'Browser window swapped' and 'Window change detected' activities, which are highly suspicious. These activities occurred in clusters, particularly around the 7-minute mark and towards the end of the log, which is well outside the initial and final 5-minute windows where such activities might be expected due to setup or submission processes. The repeated 'No face detected' events are also concerning, as they could indicate attempts to hide actions or consult external sources. Additionally, the frequent 'looking right' activities, while normally not suspicious, become more so when combined with the window changes and browser swaps. The pattern of looking right followed by window changes suggests that the candidate might be referencing external materials. The high frequency of these activities and their clustering outside the expected high-activity periods at the start and end of the exam contribute significantly to the suspicion of cheating.",
+      "exam_name": "exam38",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 70,
+        "analysis": "The activity log shows several suspicious patterns that suggest a moderate to high likelihood of cheating. Firstly, there are multiple instances of 'Browser window swapped' and 'Window change detected' activities, which are highly suspicious. These activities occurred in clusters, particularly around the 7-minute mark and towards the end of the log, which is well outside the initial and final 5-minute windows where such activities might be expected due to setup or submission processes. The repeated 'No face detected' events are also concerning, as they could indicate attempts to hide actions or consult external sources. Additionally, the frequent 'looking right' activities, while normally not suspicious, become more so when combined with the window changes and browser swaps. The pattern of looking right followed by window changes suggests that the candidate might be referencing external materials. The high frequency of these activities and their clustering outside the expected high-activity periods at the start and end of the exam contribute significantly to the suspicion of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 87.6,
+        "factor1": "Candidate looking right:179.5",
+        "factor2": "Candidate looking down:166.0",
+        "factor3": "Browser window swapped:49.5"
+      },
+      "ml_based_proctoring": {
+        "score": 6
+      }
+    },
+    {
+      "id": 39,
+      "name": "candidate39",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 78.44,
+      "overall_analysis": "The activity log shows several suspicious activities indicating a high probability of cheating. Firstly, a cell phone was detected multiple times throughout the exam, which is a high-suspicion activity. Additionally, there were clusters of window change detections outside the first and last 5 minutes, specifically at 8 minutes and 35 seconds, and 8 minutes and 55 seconds. These window changes, combined with the detection of a cell phone, significantly increase the suspicion of cheating. While 'looking right' and 'looking down' are normal behaviors, the frequency of cell phone detection and window changes suggests a high likelihood of cheating. The average interval between events is relatively short, indicating frequent changes in activity, which is also suspicious.",
+      "exam_name": "exam39",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows several suspicious activities indicating a high probability of cheating. Firstly, a cell phone was detected multiple times throughout the exam, which is a high-suspicion activity. Additionally, there were clusters of window change detections outside the first and last 5 minutes, specifically at 8 minutes and 35 seconds, and 8 minutes and 55 seconds. These window changes, combined with the detection of a cell phone, significantly increase the suspicion of cheating. While 'looking right' and 'looking down' are normal behaviors, the frequency of cell phone detection and window changes suggests a high likelihood of cheating. The average interval between events is relatively short, indicating frequent changes in activity, which is also suspicious."
+      },
+      "algorithm_based_proctoring": {
+        "score": 83.6,
+        "factor1": "Candidate looking down:96.0",
+        "factor2": "Cell phone detected:90.0",
+        "factor3": "Candidate iris looking right:60.0"
+      },
+      "ml_based_proctoring": {
+        "score": 14
+      }
+    },
+    {
+      "id": 40,
+      "name": "candidate40",
+      "status": "Low Risk",
+      "color": "#FBC02D",
+      "overall_score": 48.56,
+      "overall_analysis": "The activity log shows a cluster of window changes and a browser window swap within the first 10 seconds of the exam, which is suspicious. However, since this activity occurred within the first 5 minutes, it could also be attributed to initial setup and adjustment. The high frequency of window changes (4 events within 2 seconds) is concerning, but the lack of additional high suspicion activities and the timing of these events at the start of the exam make it uncertain whether the student was cheating. The invalid timestamp ('NaN:NaN:NaN') is noted but does not significantly impact the analysis.",
+      "exam_name": "exam40",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 50,
+        "analysis": "The activity log shows a cluster of window changes and a browser window swap within the first 10 seconds of the exam, which is suspicious. However, since this activity occurred within the first 5 minutes, it could also be attributed to initial setup and adjustment. The high frequency of window changes (4 events within 2 seconds) is concerning, but the lack of additional high suspicion activities and the timing of these events at the start of the exam make it uncertain whether the student was cheating. The invalid timestamp ('NaN:NaN:NaN') is noted but does not significantly impact the analysis."
+      },
+      "algorithm_based_proctoring": {
+        "score": 46.4,
+        "factor1": "Window change detected:44.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 41,
+      "name": "candidate41",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 61.72,
+      "overall_analysis": "The activity log shows a total of 8 high suspicion events, with 5 instances of 'Window change detected' and 3 instances of 'Browser window swapped'. The first two window changes occurred within the initial 5 minutes, which can be attributed to setup and adjustment. However, the subsequent window changes and browser swaps occurred well outside the first 5 minutes, which is suspicious. The browser swaps at 00:00:15 (2 counts) and 00:15:16 are particularly concerning as they indicate potential switching between content. The average interval of 226 seconds between events suggests a systematic pattern of switching behavior rather than isolated incidents. The NaN timestamp is anomalous and could indicate a tampering attempt. While there are no direct indications of secondary devices or copy/paste actions, the clustered window changes and browser swaps outside the initial and final periods significantly increase the suspicion of cheating.",
+      "exam_name": "exam41",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 65,
+        "analysis": "The activity log shows a total of 8 high suspicion events, with 5 instances of 'Window change detected' and 3 instances of 'Browser window swapped'. The first two window changes occurred within the initial 5 minutes, which can be attributed to setup and adjustment. However, the subsequent window changes and browser swaps occurred well outside the first 5 minutes, which is suspicious. The browser swaps at 00:00:15 (2 counts) and 00:15:16 are particularly concerning as they indicate potential switching between content. The average interval of 226 seconds between events suggests a systematic pattern of switching behavior rather than isolated incidents. The NaN timestamp is anomalous and could indicate a tampering attempt. While there are no direct indications of secondary devices or copy/paste actions, the clustered window changes and browser swaps outside the initial and final periods significantly increase the suspicion of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 56.8,
+        "factor1": "Window change detected:56.0",
+        "factor2": "Browser window swapped:36.0",
+        "factor3": "NA"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 42,
+      "name": "candidate42",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 71.72,
+      "overall_analysis": "The activity log shows several suspicious activities that warrant attention. There are a total of 13 'Window change detected' events and 5 'Browser window swapped' events, which are highly suspicious activities. These events are scattered throughout the exam and not just confined to the first or last 5 minutes, indicating potential cheating behavior. Additionally, there are 5 'Window focus changed' events, which, while less suspicious on their own, contribute to the overall pattern of window manipulation. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities are not necessarily suspicious on their own, as they can be normal behaviors. However, when combined with the window changes and browser swaps, they raise concerns about the candidate potentially looking at external resources. The absence of more severe indicators like 'Copy/Paste actions' or 'Cell phone detected' somewhat mitigates the suspicion, but the overall pattern of window changes and browser swaps outside the initial and final 5 minutes is concerning. Therefore, the score is set at 60 to reflect a moderate likelihood of cheating.",
+      "exam_name": "exam42",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 60,
+        "analysis": "The activity log shows several suspicious activities that warrant attention. There are a total of 13 'Window change detected' events and 5 'Browser window swapped' events, which are highly suspicious activities. These events are scattered throughout the exam and not just confined to the first or last 5 minutes, indicating potential cheating behavior. Additionally, there are 5 'Window focus changed' events, which, while less suspicious on their own, contribute to the overall pattern of window manipulation. The frequent 'Candidate looking right' and 'Candidate iris looking right' activities are not necessarily suspicious on their own, as they can be normal behaviors. However, when combined with the window changes and browser swaps, they raise concerns about the candidate potentially looking at external resources. The absence of more severe indicators like 'Copy/Paste actions' or 'Cell phone detected' somewhat mitigates the suspicion, but the overall pattern of window changes and browser swaps outside the initial and final 5 minutes is concerning. Therefore, the score is set at 60 to reflect a moderate likelihood of cheating."
+      },
+      "algorithm_based_proctoring": {
+        "score": 89.3,
+        "factor1": "Window change detected:140.0",
+        "factor2": "Candidate looking down:136.0",
+        "factor3": "Candidate iris looking right:135.0"
+      },
+      "ml_based_proctoring": {
+        "score": 46
+      }
+    },
+    {
+      "id": 43,
+      "name": "candidate43",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 61.0,
+      "overall_analysis": "The activity log shows a cluster of suspicious activities within the first minute, including multiple window changes and a browser window swap. While the first 5 minutes can have higher activity, the concentration and type of activities are concerning. Additionally, there are more window change events and a browser window swap later in the exam, well outside the initial and final 5-minute windows. The irregular timestamp and the lack of normal looking patterns also contribute to the suspicion. The average interval between events is quite high, suggesting that the activities were not isolated incidents but rather deliberate actions.",
+      "exam_name": "exam43",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 65,
+        "analysis": "The activity log shows a cluster of suspicious activities within the first minute, including multiple window changes and a browser window swap. While the first 5 minutes can have higher activity, the concentration and type of activities are concerning. Additionally, there are more window change events and a browser window swap later in the exam, well outside the initial and final 5-minute windows. The irregular timestamp and the lack of normal looking patterns also contribute to the suspicion. The average interval between events is quite high, suggesting that the activities were not isolated incidents but rather deliberate actions."
+      },
+      "algorithm_based_proctoring": {
+        "score": 55.0,
+        "factor1": "Window change detected:60.0",
+        "factor2": "Browser window swapped:22.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 88
+      }
+    },
+    {
+      "id": 44,
+      "name": "candidate44",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 67.88,
+      "overall_analysis": "The activity log shows multiple instances of 'Window change detected' and 'Browser window swapped', which are highly suspicious activities. These activities occurred in clusters and well outside the first and last 5 minutes of the exam, which is a strong indicator of potential cheating. The repeated window changes and browser swaps suggest that the student might be referring to external sources or using unauthorized materials. The average interval between events is relatively short, indicating a systematic pattern of switching behavior. While there are no 'looking right' activities listed, the presence of multiple high-suspicion activities in a short span of time raises significant concern.",
+      "exam_name": "exam44",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows multiple instances of 'Window change detected' and 'Browser window swapped', which are highly suspicious activities. These activities occurred in clusters and well outside the first and last 5 minutes of the exam, which is a strong indicator of potential cheating. The repeated window changes and browser swaps suggest that the student might be referring to external sources or using unauthorized materials. The average interval between events is relatively short, indicating a systematic pattern of switching behavior. While there are no 'looking right' activities listed, the presence of multiple high-suspicion activities in a short span of time raises significant concern."
+      },
+      "algorithm_based_proctoring": {
+        "score": 57.2,
+        "factor1": "Window change detected:64.0",
+        "factor2": "Browser window swapped:22.5",
+        "factor3": "Window focus changed:7.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 45,
+      "name": "candidate45",
+      "status": "Low Risk",
+      "color": "#FBC02D",
+      "overall_score": 38.36,
+      "overall_analysis": "The activity log shows a cluster of window changes and a browser window swap within the first few seconds of the exam, which can be attributed to initial setup and adjustment. However, there are multiple window change detections, including one at the 2-minute mark and another with an undefined timestamp. The high frequency of window changes (5 instances) is somewhat concerning, but the lack of other high suspicion activities and the absence of a clear pattern of sustained suspicious behavior mitigates the suspicion. The average interval between events is relatively short, but the events are mostly confined to the early part of the exam. Therefore, while there are some indicators of potential cheating, the evidence is not strong enough to warrant a high score.",
+      "exam_name": "exam45",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 30,
+        "analysis": "The activity log shows a cluster of window changes and a browser window swap within the first few seconds of the exam, which can be attributed to initial setup and adjustment. However, there are multiple window change detections, including one at the 2-minute mark and another with an undefined timestamp. The high frequency of window changes (5 instances) is somewhat concerning, but the lack of other high suspicion activities and the absence of a clear pattern of sustained suspicious behavior mitigates the suspicion. The average interval between events is relatively short, but the events are mostly confined to the early part of the exam. Therefore, while there are some indicators of potential cheating, the evidence is not strong enough to warrant a high score."
+      },
+      "algorithm_based_proctoring": {
+        "score": 50.9,
+        "factor1": "Window change detected:56.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 46,
+      "name": "candidate46",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 62.36,
+      "overall_analysis": "The activity log shows a high frequency of 'Window change detected' and 'Browser window swapped' events, which are classified as HIGH SUSPICION activities. While some window changes occurred within the first 5 minutes, there is a cluster of window changes at the 2-minute mark, which is outside the initial setup period. The 'Browser window swapped' event is particularly concerning as it indicates a clear deviation from normal test-taking behavior. The average interval of 30.8 seconds between events suggests a systematic switching behavior rather than isolated incidents. Additionally, the lack of normal looking patterns or other low suspicion activities in the log raises further concern. Therefore, the probability of cheating is assessed as high.",
+      "exam_name": "exam46",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 70,
+        "analysis": "The activity log shows a high frequency of 'Window change detected' and 'Browser window swapped' events, which are classified as HIGH SUSPICION activities. While some window changes occurred within the first 5 minutes, there is a cluster of window changes at the 2-minute mark, which is outside the initial setup period. The 'Browser window swapped' event is particularly concerning as it indicates a clear deviation from normal test-taking behavior. The average interval of 30.8 seconds between events suggests a systematic switching behavior rather than isolated incidents. Additionally, the lack of normal looking patterns or other low suspicion activities in the log raises further concern. Therefore, the probability of cheating is assessed as high."
+      },
+      "algorithm_based_proctoring": {
+        "score": 50.9,
+        "factor1": "Window change detected:56.0",
+        "factor2": "Browser window swapped:13.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 47,
+      "name": "candidate47",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 54.04,
+      "overall_analysis": "The activity log shows multiple high suspicion activities including 'Window change detected' and 'Browser window swapped'. Three of these activities occurred within the first 5 minutes, which can be considered normal setup behavior. However, there are two instances of 'Browser window swapped' and one instance of 'Window change detected' outside the first 5 minutes, which are highly suspicious. The clustering of window changes and browser swaps, even if some are within the initial period, raises concerns. The average interval between events is quite high, suggesting isolated but significant suspicious activities rather than a continuous pattern of normal behavior.",
+      "exam_name": "exam47",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 60,
+        "analysis": "The activity log shows multiple high suspicion activities including 'Window change detected' and 'Browser window swapped'. Three of these activities occurred within the first 5 minutes, which can be considered normal setup behavior. However, there are two instances of 'Browser window swapped' and one instance of 'Window change detected' outside the first 5 minutes, which are highly suspicious. The clustering of window changes and browser swaps, even if some are within the initial period, raises concerns. The average interval between events is quite high, suggesting isolated but significant suspicious activities rather than a continuous pattern of normal behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 45.1,
+        "factor1": "Window change detected:32.0",
+        "factor2": "Browser window swapped:22.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    },
+    {
+      "id": 48,
+      "name": "candidate48",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 80.36,
+      "overall_analysis": "The activity log shows several suspicious patterns that suggest a high likelihood of cheating. Key indicators include multiple instances of 'Window change detected' (8 times) and 'No face detected' (22 times) spread throughout the exam, not just within the first or last 5 minutes. The 'Window change detected' events are particularly concerning as they occur in clusters and are combined with 'No face detected' instances, which strongly suggests attempts to look up information or use unauthorized resources. Additionally, the 'Browser window swapped' activity adds to the suspicion. While 'Candidate looking right' is frequent, it is not necessarily indicative of cheating on its own, but in combination with the other high-suspicion activities, it raises significant concern. The average interval of 6.4 seconds between events also suggests frequent and potentially systematic switching behavior.",
+      "exam_name": "exam48",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows several suspicious patterns that suggest a high likelihood of cheating. Key indicators include multiple instances of 'Window change detected' (8 times) and 'No face detected' (22 times) spread throughout the exam, not just within the first or last 5 minutes. The 'Window change detected' events are particularly concerning as they occur in clusters and are combined with 'No face detected' instances, which strongly suggests attempts to look up information or use unauthorized resources. Additionally, the 'Browser window swapped' activity adds to the suspicion. While 'Candidate looking right' is frequent, it is not necessarily indicative of cheating on its own, but in combination with the other high-suspicion activities, it raises significant concern. The average interval of 6.4 seconds between events also suggests frequent and potentially systematic switching behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 88.4,
+        "factor1": "Candidate looking right:217.0",
+        "factor2": "No face detected:180.0",
+        "factor3": "Window change detected:92.0"
+      },
+      "ml_based_proctoring": {
+        "score": 13
+      }
+    },
+    {
+      "id": 49,
+      "name": "candidate49",
+      "status": "High Risk",
+      "color": "#D32F2F",
+      "overall_score": 93.08,
+      "overall_analysis": "The activity log shows a high frequency of HIGH SUSPICION activities, particularly copy/paste actions and window changes. There are 7 copy actions, 19 paste actions, and 2 cut actions right at the start of the exam, which is highly suspicious. Additionally, there are multiple window change and browser window swap events throughout the exam, with clusters of these activities occurring at 00:03:51, 00:10:23, and other times. These activities are not isolated to the first or last 5 minutes of the exam but occur consistently throughout, indicating a systematic pattern of switching between windows. The high number of copy/paste actions combined with frequent window changes strongly suggests cheating behavior.",
+      "exam_name": "exam49",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 95,
+        "analysis": "The activity log shows a high frequency of HIGH SUSPICION activities, particularly copy/paste actions and window changes. There are 7 copy actions, 19 paste actions, and 2 cut actions right at the start of the exam, which is highly suspicious. Additionally, there are multiple window change and browser window swap events throughout the exam, with clusters of these activities occurring at 00:03:51, 00:10:23, and other times. These activities are not isolated to the first or last 5 minutes of the exam but occur consistently throughout, indicating a systematic pattern of switching between windows. The high number of copy/paste actions combined with frequent window changes strongly suggests cheating behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 90.2,
+        "factor1": "Paste:285.0",
+        "factor2": "Window change detected:128.0",
+        "factor3": "Browser window swapped:126.0"
+      },
+      "ml_based_proctoring": {
+        "score": 82
+      }
+    },
+    {
+      "id": 50,
+      "name": "candidate50",
+      "status": "Medium Risk",
+      "color": "#F57C00",
+      "overall_score": 66.0,
+      "overall_analysis": "The activity log shows a high frequency of window changes and browser window swaps, which are classified as HIGH SUSPICION activities. There are 5 instances of 'Window change detected' and 2 instances of 'Browser window swapped,' with several of these activities occurring outside the first and last 5 minutes of the exam. The clustering of these activities at the beginning of the exam and again around the 10-minute mark is particularly suspicious. While some initial activity can be attributed to setup and adjustment, the repeated and clustered nature of these actions strongly suggests potential cheating behavior. The average interval of 116.8 seconds between events also indicates a systematic pattern of switching, which is not typical of normal test-taking behavior.",
+      "exam_name": "exam50",
+      "exam_date": "2025-03-09",
+      "ai_based_proctoring": {
+        "score": 75,
+        "analysis": "The activity log shows a high frequency of window changes and browser window swaps, which are classified as HIGH SUSPICION activities. There are 5 instances of 'Window change detected' and 2 instances of 'Browser window swapped,' with several of these activities occurring outside the first and last 5 minutes of the exam. The clustering of these activities at the beginning of the exam and again around the 10-minute mark is particularly suspicious. While some initial activity can be attributed to setup and adjustment, the repeated and clustered nature of these actions strongly suggests potential cheating behavior. The average interval of 116.8 seconds between events also indicates a systematic pattern of switching, which is not typical of normal test-taking behavior."
+      },
+      "algorithm_based_proctoring": {
+        "score": 52.5,
+        "factor1": "Window change detected:52.0",
+        "factor2": "Browser window swapped:22.5",
+        "factor3": "Window focus changed:3.0"
+      },
+      "ml_based_proctoring": {
+        "score": 100
+      }
+    }
+  ]
